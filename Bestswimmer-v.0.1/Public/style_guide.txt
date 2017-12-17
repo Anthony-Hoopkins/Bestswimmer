@@ -1,0 +1,12 @@
+blue_btn		b color="#81b3d2"
+blue_btn  hover	bcolor="#669ec0"
+blue_btn	active	bcolor="#5496bd"  color ="#88b6d1"
+
+brown_btn	bcolor="#766357"
+brown_btn  hover	bcolor="#604e43"
+brown_btnactive	bcolor="#503e33"	color="#857871"
+
+
+input 	 	bcolor="#f2f2f2"
+input   	hover	bcolor="#ebebeb"
+input 	active	bcolor="#bdbbbc"

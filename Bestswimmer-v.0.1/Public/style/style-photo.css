@@ -1,0 +1,252 @@
+main {
+	max-width: 1200px;
+	width: 90%;
+	margin: 5px auto;
+	font-size: 70%;
+}
+
+.slider{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.slider{
+	box-sizing: border-box;	
+	border-bottom: 1px solid lightgrey;
+	border-top: 1px solid lightgray;
+}
+
+.slider>div{
+display: inline-block;
+width: 32%;
+margin: 20px 0 10px 0.7%;
+vertical-align: top;
+text-align: center;
+}
+
+
+.slider>div div:last-child{
+	height: 50px;
+	vertical-align: top;
+}
+
+
+.slider a{	
+	text-decoration: none;
+	color: black;	
+}
+
+.slider a:hover{
+	text-decoration: underline;
+	color: #08c;
+}
+
+.short-title{
+	height: 30px;
+}
+
+.slider .pict{
+	width: 100%;
+}
+
+section{	
+	float:left;
+	width: 66%;
+	margin: 0 1.5% 0 1%; 
+	box-sizing: border-box;	
+}
+
+aside{	
+
+	float:right;
+	width:30%;
+	box-sizing: border-box;
+	margin-right: 1.5%;
+}
+aside ul{
+	padding:0;
+}
+
+section img{
+	width: 100%;
+}
+
+section p {
+	margin:0 0 20px 0;
+	padding: 0;
+}
+
+section a:hover{
+	text-decoration: none;
+	color: #08c;
+}
+
+.advertising{
+	height: 150px;
+	background-color:  azure;
+	margin: 2.2% 0 30px 0;
+	text-align: center;
+}
+
+aside li{
+	 list-style: none;
+	 border-top: 1px solid lightgray;
+	 padding: 10px 0 5px 0;
+}
+
+.left-aside{
+	float: left;
+	width: 48%;
+}
+
+.right-aside{
+	float: right;
+	width: 48%;
+}
+
+.floor{
+	clear: both;
+}
+
+aside p{
+	list-style: none;
+	margin: 4px 7px 3px;
+	vertical-align: top;
+	font-size:90%;	
+}
+
+aside li img{
+	width: 100%;
+	padding-bottom: 10px;	
+}
+	
+ main a{
+	text-decoration: none;
+	color: black;	
+}
+
+ main a:hover{
+	text-decoration: underline;
+	color: #08c;
+}
+
+figure{
+	margin: 1%;
+	float: left;
+	width: 48%;
+}
+
+figure a{
+	vertical-align: top;
+}
+
+.paginator {
+	clear: both;
+    width: 255px;
+    margin: 30px auto;
+    padding: 10px;
+    white-space: nowrap;
+    background: #ecf0f1;
+}
+
+.paginator a,
+.paginator span {
+    display: inline-block;
+    min-width: 20px;
+    height: 40px;
+    padding: 0 10px;
+    line-height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background: #95a5a6;
+}
+
+.paginator .prev {
+    margin-right: 20px;
+    text-indent: -5000px;
+    background-image: url("../img/arrows.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.paginator .next {
+    margin-left: 20px;
+    text-indent: -5000px;
+    background-image: url("../img/arrows.png");
+    background-repeat: no-repeat;
+    background-position: 0 -40px;
+}
+
+.paginator .current {
+    background-color: #81b3d2;
+}
+
+.paginator .disabled {
+     opacity: 0.3;
+}
+
+.paginator a:hover {
+    background-color: #5496bd;
+     color: white;
+     text-decoration: none;
+}
+
+
+
+
+@media screen and (max-width: 440px) {
+	header, main{
+		width: 100%;
+		margin: 0;
+	}
+	section{
+		display: inline-block;
+		width:100%;
+		margin: 0;
+		padding: 0;
+		
+	}
+
+	figure{
+		width: 98%;
+	}
+	.slider, aside{
+			display: none;
+	}
+}
+	
+
+
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+	header, main{
+		width: 100%;
+	}
+}
+
+
+
+
+@media screen and (min-width: 440px) and (max-width: 800px) {
+	header, main{
+		width: 100%;
+		
+	}
+	section{
+		display: inline-block;
+		width: 100%;
+		margin: 0;
+		padding: 0;		
+	}
+
+	.slider, aside{
+			display: none;
+		}
+}
+
+
+
+
+

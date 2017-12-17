@@ -1,0 +1,72 @@
+.interest{
+	text-align: center;
+	font-size: calc(0.8rem + 0.5vw);
+	background-image: url(../img/pool.jpg); 
+	background-size:  cover;	
+	height: 550px;
+}
+
+.block{
+	background: #fff;
+	box-sizing: border-box;
+	display: inline-block;
+	text-align: center;
+	width: 70%;
+}
+
+
+.interest h2{
+	border: none;	font-size: calc(0.8rem + 0.5vw);
+}
+
+.interest__search a {
+	display: inline-block;
+	vertical-align: top;
+	text-decoration: none; 
+	padding: 20px 0;
+	width: 100%;
+	color: white;		
+}
+
+.interest p{	
+	padding:0 0 40px 0;
+}
+
+.interest__search {
+	box-sizing: border-box;
+	display: inline-block;
+	background: #766357;
+	width: 70%;	
+	text-align: center;		
+}
+
+.interest__search:hover {
+	background: #604e43;
+}
+.interest__search:active a {
+	background: #503e33; color: #857871;
+}
+
+
+    
+
+
+
+footer{
+	border-top: 1px solid black;
+}
+
+
+@media screen and (max-width: 800px) {
+	.interest__search, .block {
+		width: 100%;
+		border-radius: none;
+	}
+
+	.interest{
+		height: auto;
+	}
+
+	
+
+}

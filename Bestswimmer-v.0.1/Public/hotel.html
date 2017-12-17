@@ -1,0 +1,262 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset= "utf-8">
+		<title>Записаться в бассейн Минск</title> 			<!--First Site-->
+		<link href="style/style.css"          rel="stylesheet"    type="text/css"  >
+		<link href="style/style-hotel.css"          rel="stylesheet"    type="text/css"  >
+		<link href="img/favico_mySwimming.png" rel="shortcut icon" type="image/x-icon" > 
+
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet"> 
+
+		<meta name="viewport" content="width=device-width">
+		
+	</head>
+
+	<body>
+		<header>
+		
+			<nav id="123" class="main-menu">
+
+				<input type="checkbox" name="menu" id="menubtn">
+				<input type="checkbox" name="menu2" id="menubtn2">
+
+				<label for="menubtn" class="head-menu">	     
+					<img class="Menu-burger--hidden" src="img/svg/icon-menu.svg" alt="Menu burger" > 
+					<img class="Menu-cross--hidden" src="img/svg/icon-cross.svg" alt="Menu burger" >   	
+				</label>
+
+<ul class="main-menu__btn"> 
+
+						<li class="hidden1"> <a title="Лучший пловец Минск" href="index.html"> <img src="img/logo-swimm2.png" title="Best-Swimmer" alt="Курсы плавания Минск"> </a></li>	
+									
+					    <li><a class="btn" href="info.html">Информация</a></li><!--
+					 --><li class="btn__off hidden2" > <label for="menubtn2"> <a   href="#">    Галерея </a>  </label> 
+					      <ul class="dropdown-menu"> 
+							<li> <a class="btn"  href="photo.html"> Фото </a> </li>
+							<li> <a class="btn"  href="video.html"> Отзывы </a> </li>
+							<!-- <li> <a  class="btn__off hidden3"  href="#"> Отзывы </a> </li> -->
+						  </ul>
+						</li><!--
+					 --><li class="logo">  
+						   <a href="index.html" title="Обучение плаванию Минск"> <img src="img/logo-swimm2.png" title="Best-Swimmer" alt="Курсы плавания Минск"> </a>					
+					    </li><!--
+					--><li><a class="btn"  href="map.html">Как добраться</a></li><!--
+					--><li><a class="btn" href="hotel.html">Записаться</a></li>				
+					
+				</ul>
+			</nav>
+		
+		</header>
+		
+		
+		
+		
+		<main  class="clearfix" >
+
+
+			<form method="get" action="#">	
+
+
+				<div class="search-hotel hotel clearfix">			
+
+					<div class="search-hotel_block">
+						<p> Интенсивность занятий:</p>
+						
+							<ul>
+								<li> <input type="radio" name="infr" value="bass"	checked><span>2 раз в неделю</span> </li>
+								<li> <input type="radio" name="infr" value="park" 	><span>3 раза в неделю</span> </li>
+								<li> <input type="radio" name="infr" value="wifi" ><span>Ещё не решил</span> </li>						
+							</ul>
+						
+
+					</div>
+
+					<div class="search-hotel_block">
+						<p>Тип тренеровки: </p>
+						
+							<ul>
+								<li> <input  type="radio" name="typ" value="hot" checked	><span> Индивидуальная</span> </li>
+								<li> <input  type="radio" name="typ" value="mot" 		><span> VIP</span> </li>
+								<li> <input  type="radio" name="typ" value="appart"  ><span> Групповая</span> </li>
+						
+							</ul>						
+
+					</div>
+			
+
+					<div class="search-hotel_block">
+
+						<p>Какое расстояние вы можете проплыть без остановки: </p><br>
+						<div class="border-for">
+							<div class="search-hotel_price">  
+								
+									<div>от 0 </div> <div>|</div> <div>до 3000 м</div>
+								
+							</div>
+							<!--<div class="kreis1 kreis"> </div>
+							<div class="kreis2 kreis"> </div>-->
+						</div>
+
+						<div class="polzun"> <input type="range" name="num" min="0" max="500" step="10" value="300"> </div>
+					</div>
+					
+				</div>
+
+
+
+
+
+				<div class="interest__search">
+					<div>				Записаться на пробное занятие  </div>
+
+
+					<div class="interest__search-block">
+						<table>
+							<tr> 
+								<td>	<p>Желаемая дата тренеровки:</p>  </td>	
+								<td colspan="3">	<input type="date" name="calendar-in" value="2017-12-24"> </td>	
+									
+							</tr>
+
+							<tr>
+								<td> 	<p>Возможная альтернатива:</p> </td>			
+								<td colspan="3">	<input type="date" name="calendar-out" value="2017-12-27"> </td>	
+									
+
+							</tr>
+
+							<tr> 
+								<td>  	<span>Взрослые:</span> </td>	 	
+								<td> 	<input type="number" name="num-people" value="1" min="0" max="8" step="1"> </td>	
+								<td id="td-center"> 	<span >Дети:</span> </td>	 		
+								<td> 	<input type="number" name="num-kids" value="0" min="0" max="8" step="1"> </td>	
+							</tr>
+
+							<tr> 
+								<td colspan="4"> <p>Укажите номер телефона для связи с вами в формате +375 xx xxx xxxx:  <input type="tel" name="tel" 
+  											pattern="+375-[0-9]{2}-[0-9]{3}-[0-9]{4}"></p>
+  								</td>
+  							</tr>
+
+
+							<tr> 
+								<td colspan="4">  <input type="submit" value="Записаться"> </td>
+							</tr>
+						</table>							
+					</div>
+<!--
+					<div class="found_hotel">
+
+						<img src="img/found_hotel.jpg" alt="found_hotel Amara resort"> 
+						<img src="img/found_hotel.jpg" alt="found_hotel Amara resort"> 
+						<img src="img/found_hotel.jpg" alt="found_hotel Amara resort"> 
+					-->
+					</div>		
+				</div>	
+				
+			</form>
+
+
+			<div class="contacts">
+	            <div class="title">Наши контакты:</div>
+	            <div class="item">
+	                <div class="icon icon-location"></div>
+	                РБ, Минск, Бассейн городского центра олимпийского резерва по теннису, <br>
+	                 ул. Жудро 40
+	            </div>
+	            <div class="item ">
+	                <div class="icon icon-phone"></div>
+	                +375 (25) 555-33-22
+	            </div>
+	            <div class="item ">
+	                <div class="icon icon-email"></div>
+	                <a href="mailto:s4yka961@gmail.com">s4yka961@gmail.com</a>
+	            </div>
+	        </div>
+
+						
+		</main>
+		
+		
+	
+		
+		<footer class="clearfix">
+		
+			<div class="foot-left">
+				<a class="btn foot-href" href="#123" > #myswimming </a>
+			</div>
+			
+			
+			<div class="foot-center">
+				<a class="btn--active" href="https://facebook.com/" target="_blank" > <img class="social_btn_facebook" src="img/btn/facebook_btn.jpg" alt="facebook_btn"></a>
+				<a class="btn--active"  id="twitter_btn" href="https://twitter.com/" target="_blank"> <img class="social_btn_twitter" src="img/btn/twitter_btn.jpg" alt="twitter_btn"> </a>
+				<a class="btn--active" href="https://youtube.com/"  target="_blank">  <img class="social_btn_youtube" src="img/btn/youtube_btn.jpg" alt="youtube_btn"> </a>
+				<!-- <a href="#visitsedona" target="_blank"> ins </a> -->
+			</div>
+			
+			
+			<div class="foot-right">
+					<p>&copy; 2017 Web site by - Anthony Web Production</p>
+					<a class="btn--active" href="https://www.youtube.com/watch?v=TO3FGZnqgu4"  target="_blank">  <img class="create_by" src="img/btn/create_by.jpg" alt="Logo Anthony"> </a>
+					<!-- -->
+				
+			</div>
+		
+		
+		
+		</footer>
+	
+	
+	
+	</body>
+	
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<!--	<div class="interest__search-block table">
+						<div class="row"> 
+							<div class="cell">	<p>Дата заезда:</p>  </div>	
+							<div class="cell">	<input type="date" name="calendar" value="2017-12-24"> </div>	
+							<div class="cell"> </div>
+							<div class="cell"> </div>		
+						</div>
+
+						<div class="row">
+							<div class="cell"> 	<p>Дата выезда:</p> </div>			
+							<div class="cell">	<input type="date" name="calendar" value="2018-01-05"> </div>	
+							<div class="cell"> </div>
+							<div class="cell"> </div>		
+
+						</div>
+
+						<div class="row"> 
+							<div class="cell">  <span>Взрослые:</span> </div>	 	
+							<div class="cell">  <input type="number" name="num" value="1" min="0" max="8" step="1"> </div>	
+							<div class="cell">  <span>Дети:</span> </div>	 		
+							<div class="cell"> <input type="number" name="num" value="0" min="0" max="8" step="1"> </div>	
+						</div>
+
+						<div class="row"> 
+							<input type="submit" value="НАЙТИ">
+						</div>
+					</div> -->
